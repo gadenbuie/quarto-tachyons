@@ -1,9 +1,23 @@
 ---
 title: Tachyons Extension For Quarto
-format: html
 
 filters:
   - tachyons
+
+format:
+  gfm: default
+  html:
+    toc: true
+    toc-level: 2
+    toc-location: right
+    toc-title: "tachyons"
+    code-links:
+      - text: gadenbuie/quarto-tachyons
+        href: "https://github.com/gadenbuie/quarto-tachyons"
+        icon: github
+      - text: Question or Issue?
+        href: "https://github.com/gadenbuie/quarto-tachyons/issues/new"
+        icon: question-circle-fill
 ---
 
 Add [Tachyons](https://tachyons.io/) to your Quarto documents.
@@ -53,6 +67,7 @@ Then use Tachyons classes as desired!
 </article>
 ```
 
+::: {.content-visible when-format="html"}
 ```{=html}
 <article class="br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw5 center">
   <img src="manja-vitolic-gKXKBY-C-Dk-unsplash.jpg" class="db w-100 br2 br--top" alt="Photo of a kitten looking menacing.">
@@ -72,3 +87,4 @@ Then use Tachyons classes as desired!
   </div>
 </article>
 ```
+:::
