@@ -3,7 +3,7 @@ function Pandoc()
     quarto.doc.add_html_dependency({
       name = 'tachyons',
       version = '4.12.0',
-      stylesheets = { "tachyons.css" },
+      stylesheets = { "tachyons.css", "quarto-resets.css" },
     })
   end
 end
