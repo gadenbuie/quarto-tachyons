@@ -50,3 +50,12 @@ documentation](https://tachyons.io/components/cards/product-card/index.html).)
   </div>
 </article>
 ```
+
+You may also apply Tachyons to spans using pandoc’s inline attributes
+syntax:
+
+
+    here is some [example text in a blue box]{.f1 .b .white .bg-blue .shadow-5}
+
+here is some <span class="f1 b white bg-blue shadow-5">example text in a
+blue box</span>

@@ -88,3 +88,15 @@ Then use Tachyons classes as desired!
 </article>
 ```
 :::
+
+
+You may also apply Tachyons to spans using pandoc's inline attributes syntax:
+
+```
+
+here is some [example text in a blue box]{.f1 .b .white .bg-blue .shadow-5}
+
+```
+
+
+here is some [example text in a blue box]{.f1 .b .white .bg-blue .shadow-5}
